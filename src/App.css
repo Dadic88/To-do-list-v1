@@ -1,0 +1,37 @@
+body {
+  background-color: #ff8c00;
+  color: #a52a2a;
+}
+* {
+  box-sizing: border-box;
+}
+.hlavnimenu {
+  max-width: 300px;
+  margin: 35px auto;
+}
+form {
+  border: 3px solid #303130;
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+}
+form input[type="text"] {
+  background: none;
+  border: 0;
+  padding: 0 8px;
+  display: block;
+  width: 100%;
+}
+form button {
+  background-color: #dc143c;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.task {
+  background-color: #303130;
+  border-radius: 10px;
+  padding: 6px;
+  margin-top: 5px;
+}
